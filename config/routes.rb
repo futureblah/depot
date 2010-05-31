@@ -1,4 +1,6 @@
 Depot::Application.routes.draw do |map|
+  resources :orders
+
   resources :line_items
 
   resources :carts
